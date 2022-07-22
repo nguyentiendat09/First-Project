@@ -1,0 +1,100 @@
+/* PC */
+@media only screen and (min-width: 64em) {
+    #header .mobile-menu-btn {
+        display: none;
+    }
+}
+
+/* Tablet and Mobile */
+@media only screen and (max-width: 63.9375em) {
+    .place-buy-ticket {
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .contact-submit-btn {
+        font-size: 16px;
+    }
+
+    .social {
+        font-size: 42px;
+    }
+
+    #footer .social a {
+        margin: 0 8px;
+    }
+
+    #footer .copy-right a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+
+
+}
+
+/* Tablet: width >=740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    #header .mobile-menu-btn {
+        display: none;
+    }
+}
+
+/* Mobile: width < 740px*/
+@media only screen and (max-width: 46.1875em) {
+    .s-full-width,
+    .s-col-ful {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li a {
+        display: block;
+        padding: 1px 24px;
+    }
+
+    #nav > li {
+        display: block;
+    }   
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: inherit;
+        background-color: rgb(55, 44, 44);
+    }
+
+    #nav .subnav a {
+        color: white;
+        padding: 5px 41px;
+    }
+
+    #content .member-img {
+        width: 60%;
+        height: 60%;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+}
